@@ -51,7 +51,7 @@ border-style: ridge;
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
 h1{
 font-size: 1.5rem;
 font-style: oblique;
