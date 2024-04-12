@@ -11,28 +11,28 @@ const robotopcion = opciones[Math.floor(Math.random() * 3)];
 let result = "";
 
 if(jugadoropcion === robotopcion){
-result = "Es un empate!";
+result = "ES UN EMPATE";
 }
 
 else{
 
 switch(jugadoropcion){
     case "piedra":
-    result = (robotopcion === "tijera") ? "GANASTE!!" : "PERDISTE";
+    result = (robotopcion === "tijera") ? "GANASTE!!" : "HAS PERDIDO";
     break;
     case "papel":
-    result = (robotopcion === "piedra") ? "GANASTE!!" : "PERDISTE";
+    result = (robotopcion === "piedra") ? "GANASTE!!" : "HAS PERDIDO";
     break;
     case "tijera":
-    result = (robotopcion === "papel") ? "GANASTE!!" : "PERDISTE";
+    result = (robotopcion === "papel") ? "GANASTE!!" : "HAS PERDIDO";
     break;
-
+    
 }
 
 }
 
-playerdisplay.textContent = 'JUGADOR: ${jugadoropcion}';
-robotdisplay.textContent = 'MR.ROBOT: ${robotopcion}}';
+playerdisplay.textContent = jugadoropcion;
+robotdisplay.textContent = robotopcion;
 resultadodisplay.textContent = result;
 
 }
