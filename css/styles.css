@@ -86,7 +86,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 background-color: rgb(98, 98, 65);
-margin: 0.3rem;
+margin: 1.3rem;
 }
 
 #playerdisplay, #robotdisplay{
