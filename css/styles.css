@@ -74,6 +74,7 @@ font-style: oblique;
 .subtitulo{
 color: white;
 font-size: 0.7rem;
+margin: 1rem;
 }
 
 body{
@@ -94,11 +95,12 @@ margin: 0.3rem;
 
 #playerdisplay, #robotdisplay{
 font-size: 0.7rem;
-margin: 0;
+margin: 0.5rem;
 }
 #resultadodisplay{
 font-size: 2rem;
 border-color: whitesmoke;
 border-style: ridge;
+padding: 0.5rem;
 }
 }
