@@ -1,9 +1,7 @@
-@media only screen and (min-width:600px){
-
 *{
-background-color: rgb(0, 0, 0);
+background-color: rgb(94, 31, 31);
 }
-
+    
 body{
 font-family: Arial, sans-serif;
 font-weight: bold;
@@ -12,60 +10,58 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-
+    
 h1{
-font-size: 4.5rem;
+font-size: 4rem;
 color: rgb(255, 255, 255);
+font-style: oblique;
 }
-
+    
 .opciones{
 margin-bottom: 30px;
 }
-
+    
 .opciones button{
 font-size: 7.5rem;
 min-width: 160px;
 margin: 0 10px;
 border-radius: 250px;
-background-color: rgb(255, 255, 255);
+background-color: rgb(131, 131, 77);
 cursor: pointer;
 transition:
 background-color 0.5s ease;
 }
-
+    
 .opciones button:hover{
-background-color: rgb(136, 132, 132);
+background-color: rgb(53, 53, 31)
 }
-
+    
 #playerdisplay, #robotdisplay{
-font-size: 2.5rem;
+font-size: 1rem;
 color: rgb(255, 255, 255);
 margin: 1rem;
 }
-
+    
 #resultadodisplay{
- font-size: 5rem;
- margin: 30px 0;
- color: rgb(253, 253, 253);
-}
-}
-
-*{
-background-color: rgb(0, 0, 0);
+font-size: 5rem;
+margin: 30px 0;
+color: rgb(253, 253, 253);
+border-color: whitesmoke;
+border-style: ridge;
 }
 
-body{
-color: rgb(255, 255, 255);
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
 
+@media only screen and (max-width: 400px){
 h1{
 font-size: 1.5rem;
 font-style: oblique;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .opciones button{
@@ -73,17 +69,16 @@ font-size: 7rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color: rgb(255, 255, 255);
-margin-bottom: 30px;
-border-radius: 250px;
+background-color: rgb(98, 98, 65);
 }
 
 #playerdisplay, #robotdisplay{
-font-size: 0.6rem;
+font-size: 0.7rem;
+margin: 0;
 }
-
 #resultadodisplay{
-margin: 0.6rem;
-font-size: 2rem;
-
+font-size: 2.5rem;
+border-color: whitesmoke;
+border-style: ridge;
+}
 }
