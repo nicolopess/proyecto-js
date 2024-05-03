@@ -4,6 +4,8 @@ const opciones = ["piedra", "papel", "tijera"];
 const playerdisplay = document.getElementById("playerdisplay");
 const robotdisplay = document.getElementById("robotdisplay");
 const resultadodisplay = document.getElementById("resultadodisplay");
+const playerScoreDisplay = document.getElementById("playerScoreDisplay");
+const ComputerScoreDisplay = document.getElementById("ComputerScoreDisplay");
 
 function playgame(jugadoropcion) {
   const robotopcion = opciones[Math.floor(Math.random() * 3)];
@@ -28,4 +30,6 @@ function playgame(jugadoropcion) {
   playerdisplay.textContent = `Tú: ${jugadoropcion}`;
   robotdisplay.textContent = `Mr. Robot: ${robotopcion}`;
   resultadodisplay.textContent = result;
+
+
 }

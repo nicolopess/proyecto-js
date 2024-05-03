@@ -57,6 +57,10 @@ border-color: whitesmoke;
 border-style: ridge;
 }
 
+.scoreDisplay{
+    font-size: 1.3rem;
+    color: white;
+}
 
 
 /* VERSION CELULAR */
